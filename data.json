@@ -1,0 +1,19 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hola", "¿Cómo estás?", "Hola chatbot"],
+            "responses": ["Hola, ¿qué puedo hacer por ti?", "Hola, ¿cómo puedo ayudarte hoy?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Adiós", "Nos vemos luego", "Chao"],
+            "responses": ["Adiós, que tengas un buen día", "Hasta la próxima"]
+        },
+        {
+            "tag": "gracias",
+            "patterns": ["Gracias", "Gracias por la ayuda", "Aprecié tu ayuda"],
+            "responses": ["Me alegra haber podido ayudar", "De nada, en lo que sea que necesites ayuda, aquí estaré"]
+        }
+    ]
+}
